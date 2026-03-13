@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="assets/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avyra Health - Wellness that grows stronger with time</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <a href="index.html">
+              <img src="assets/logo.png" alt="Avyra" />
+            </a>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Avyra</a></li>
+            <li><a href="whats-new.html" class="nav-link">What's New</a></li>
+            <li><a href="products.html" class="nav-link">Products</a></li>
+            <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-image">
+        <img src="assets/Family.png" alt="Family wellness" />
+      </div>
+      <div class="hero-overlay">
+        <div class="container">
+          <div class="hero-content">
+            <h1 style="background-color: var(--primary-color); color: white">
+              You've seen X.
+            </h1>
+            <h1 style="background-color: var(--primary-color); color: white">
+              Now experience exponential
+            </h1>
+            <p>
+              <b>
+                Avyra is built on a simple belief: health has depth. When cared
+                for daily, it Xpands. When supported thoughtfully, it compounds.
+                Our range is designed using whole ingredients that work
+                together, supporting the body as a connected system and allowing
+                benefits to develop with time. This is wellness shaped by
+                intention, consistency, and respect for how the body
+                functions.</b
+              >
+            </p>
+            <!-- <a href="products.html" class="btn btn-primary">Explore Now</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+      <div class="container">
+        <div class="video-wrapper">
+          <div class="video-container">
+            <video controls poster="assets/Video.png" playsinline>
+              <source src="Avyra Brand .mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <div class="video-content">
+            <h2>WELLNESS BUILT TO LAST.</h2>
+            <p>
+              <b style="color: #02686a">
+                Most wellness solutions focus on quick fixes. At Avyra, we
+                believe in building long-term health through balance and
+                consistency. Our products are designed as daily rituals that
+                naturally support your body, allowing benefits to grow steadily
+                over time.</b
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function playVideo() {
+        var video = document.getElementById("myVideo");
+        video.play();
+        video.setAttribute("controls", "controls"); // add native controls on play
+        document.querySelector(".play-button").style.display = "none";
+      }
+    </script>
+
+    <script>
+      function playVideo() {
+        var video = document.getElementById("myVideo");
+        video.play();
+        document.querySelector(".play-button").style.display = "none";
+      }
+    </script>
+
+    <!-- Designed for World Section -->
+    <section class="designed-section" style="background-color: white">
+      <div class="container">
+        <div class="designed-wrapper">
+          <div class="designed-content">
+            <h2>DESIGNED FOR THE WORLD.</h2>
+            <p>
+              <b style="color: #02686a">
+                Avyra launches in Guyana with a global outlook from day one. Our
+                formulations align with international standards and are
+                manufactured within India's advanced pharmaceutical ecosystem,
+                known for scale, precision, and quality.
+              </b>
+            </p>
+            <p>
+              <b style="color: #02686a">
+                Built thoughtfully, Avyra is designed to grow across the
+                Caribbean and neighbouring regions, meeting everyday wellness
+                needs.</b
+              >
+            </p>
+            <a href="#" class="link-see">See where Avyra is headed →</a>
+          </div>
+          <div class="designed-image">
+            <img src="assets/Map.png" alt="World map showing Avyra locations" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Logo Section -->
+          <div class="footer-logo-section">
+            <img src="assets/logo.png" alt="Avyra Health Logo" />
+            <p>
+              For wellness that doesn't just improve, but becomes exponential.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Avyra</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="whats-new.html">What's New</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="products.html#supplements">Supplements</a></li>
+              <li><a href="products.html#otc">OTC</a></li>
+              <li><a href="products.html#prescription">Prescription</a></li>
+              <li><a href="products.html#devices">Devices</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4>Connect</h4>
+            <div class="social-links">
+              <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" title="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
